@@ -9,19 +9,27 @@
 </head>
 
 <body>
-  <table>
+  <table class="table-content">
     <tr> <!-- Navigation -->
       <td colspan="6" class="navigation">
-        <p> <i class="fa fa-dropbox"></i> Filebox </p>
+        <a href="#">
+          <i class="fa fa-dropbox"></i> Filebox
+        </a>
       </td>
       <td colspan="2" class="navigation">
-        Download the app
+        <a href="#">
+          Download the app
+        </a>
       </td>
       <td colspan="2" class="navigation">
-        Sign in
+        <a href="#">
+          Sign in
+        </a>
       </td>
       <td colspan="2" class="navigation">
+        <a href="#">
         Try Filebox Business
+      </a>
       </td>
     </tr>
 
@@ -36,17 +44,18 @@
         <p> Get to all your files from anywhere, on any device, and share them with anyone. </p>
       </td>
       <td colspan="6">
+        <form class="form-inputs-box">
         <div>
           <label> Full Name </label>
-          <input type="text">
+          <input type="text" id="Full name" placeholder="Full name">
         </div>
         <div>
           <label> Email </label>
-          <input type="text">
+          <input type="text" id="Email" placeholder="Email">
         </div>
         <div>
           <label> Password </label>
-          <input type="text">
+          <input type="text" id="Password" placeholder="Password">
         </div>
         <div>
           <input type="checkbox">
@@ -56,11 +65,13 @@
         <div>
           <button> Sign up for free </button>
         </div>
+          <hr>
         <div>
           <button>
             <i class="fa fa-google"></i>
             Sign up free with Google </button>
         </div>
+      </form>
       </td>
     </tr>
 
@@ -121,15 +132,15 @@
         <h2> Get started now </h2>
         <div>
           <label> Full Name </label>
-          <input type="text">
+          <input type="text" id="Full name" placeholder="Full name">
         </div>
         <div>
           <label> Email </label>
-          <input type="text">
+          <input type="text" id="Email" placeholder="Email">
         </div>
         <div>
           <label> Password </label>
-          <input type="text">
+          <input type="text" id="Password" placeholder="Password">
         </div>
         <div>
           <input type="checkbox">
@@ -139,6 +150,7 @@
         <div>
           <button> Sign up for free </button>
         </div>
+        <hr>
         <div>
           <button>
             <i class="fa fa-google"></i>
@@ -151,44 +163,54 @@
 
     <tr> <!-- Footer -->
       <td colspan="2">
-        <h3> Filebox </h3>
+        <h4 class="footer-list-title"> Filebox </h4>
         <div> Desktop app </div>
         <div> Mobile apps </div>
         <div> Plans </div>
         <div> Security </div>
       </td>
       <td colspan="2">
-        <h3> Company </h3>
-        <p> About us </p>
-        <p> Jobs </p>
-        <p> Press </p>
-        <p> Blog </p>
+        <h4 class="footer-list-title"> Company </h4>
+        <ul class="footer-list">
+        <li class="footer-list-item"> About us </li>
+        <li class="footer-list-item"> Jobs </li>
+        <li class="footer-list-item"> Press </li>
+        <li class="footer-list-item"> Blog </li>
+      </ul>
       </td>
       <td colspan="2">
-        <h3> Support </h3>
-        <p> Help Center </p>
-        <p> Get started </p>
-        <p> Contact </p>
-        <p> Privacy & terms </p>
+        <h4 class="footer-list-title"> Support </h4>
+        <ul class="footer-list">
+        <li class="footer-list-item"> Help Center </li>
+        <li class="footer-list-item"> Get started </li>
+        <li class="footer-list-item"> Contact </li>
+        <li class="footer-list-item"> Privacy & terms </li>
+      </ul>
       </td>
       <td colspan="2">
-        <h3> Community </h3>
-        <p> Developers </p>
-        <p> Referrals </p>
-        <p> Forum </p>
+        <h4 class="footer-list-title"> Community </h4>
+        <ul class="footer-list">
+        <li class="footer-list-item"> Developers </li>
+        <li class="footer-list-item"> Referrals </li>
+        <li class="footer-list-item"> Forum </li>
+      </ul>
       </td>
       <td colspan="2">
-        <h3> Connect </h3>
-        <p> Twitter </p>
-        <p> Facebook </p>
-        <p> Google+ </p>
-        <p> YouTube </p>
+        <h4 class="footer-list-title"> Connect </h4>
+        <ul class="footer-list">
+        <li class="footer-list-item"> Twitter </li>
+        <li class="footer-list-item"> Facebook </li>
+        <li class="footer-list-item"> Google+ </li>
+        <li class="footer-list-item"> YouTube </li>
+      </ul>
       </td>
       <td colspan="2">
-        <h3> Products </h3>
-        <p> Pro </p>
-        <p> Business </p>
-        <p> Enterprise </p>
+        <h4 class="footer-list-title"> Products </h4>
+        <ul class="footer-list">
+        <li class="footer-list-item"> Pro </li>
+        <li class="footer-list-item"> Business </li>
+        <li class="footer-list-item"> Enterprise </li>
+      </ul>
       </td>
     </tr>
 
