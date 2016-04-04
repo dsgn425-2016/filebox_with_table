@@ -4,6 +4,22 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+a {
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+
 td{
   border: thin red solid;
 }
@@ -24,4 +40,39 @@ button{
   color: white;
   width: 400px;
   height:45px;
+}
+
+.take-your-docs{
+  background: url("docs-anywhere.png");
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.send-videos{
+  background: url("send-videos-quickly.png");
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.photos-safe{
+  background: url("keep-your-photos-safe.png");
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.work-on-slides{
+  background: url("work-on-slides-together.png");
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.never-lose{
+  background: url("never-lose-a-file-again.png");
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
 }
