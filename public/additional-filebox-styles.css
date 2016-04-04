@@ -18,3 +18,10 @@ td{
   background-size: cover;
   height: 300px;
 }
+
+button{
+  background-color:blue;
+  color: white;
+  width: 400px;
+  height:45px;
+}
