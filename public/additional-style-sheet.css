@@ -1,9 +1,79 @@
+table{
+  width: 960px;
+  margin:auto;
+}
+
+form{
+  line-height: normal;
+}
+
 body{
   font-family: Open Sans;
   color: rgb(68,68,68);
+  background-color: rgb(251, 251, 251);
+  line-height: 2em;
 }
 
 h1{
-font-weight: normal;
+  font-weight: lighter;
+}
 
+h2{
+  font-weight: lighter;
+}
+
+.site-nav{
+  color: rgb(0,126,229);
+  padding: 0px;
+}
+
+.hero{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color:rgb(0,126,229);
+}
+.primary-button{
+  background-color: rgb(0,126,229);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+td{
+  vertical-align: top;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+h4{
+  color: rgb(153,153,153);
+  margin-bottom: 10px;
+}
+
+.footer{
+  list-style: none;
+  padding-left: 0px;
+}
+
+li{
+    color: rgb(153,153,153);
+}
+
+.apps-list{
+  color: rgb(68,68,68);
+}
+
+.extra-padding{
+  padding-top: 50px;
+  padding-bottom: 150px;
 }
