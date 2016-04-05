@@ -1,0 +1,25 @@
+.main-content {
+  width: 100%
+}
+
+td {
+  border: thin red solid;
+}
+.hero-img {
+
+}
+.imgcell {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.textcell {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.margin {
+  width=10px
+}
+.footer {
+  color: grey;
+  font-family: sans-serif;
+}
