@@ -1,0 +1,50 @@
+
+.main-content {
+  width: 960px;
+  color:rgb(68, 68, 68);
+  margin: auto;
+  vertical-align: top;
+  font-size: 20px;
+  font-weight: lighter;
+
+}
+td{
+  vertical-align: top;  vertical-align: top;
+ padding-left: 10px;
+ padding-right: 10px;
+}
+
+body{font-family: 'Open Sans', sans-serif;
+background-color: rgb(251, 251, 251)}
+
+a{color: rgb(0, 126, 229);
+  text-decoration: none;
+  font-weight: normal;}
+  a.hover{}
+
+    .title{font-weight: 300; font-size:32px; }
+    .header{font-weight: 300; font-size: 24px;padding-top: 50px; margin-top: 20px; margin-bottom: 20px}
+    .hero{text-align: center;}
+    .form-text{font-weight: normal;
+      font-size: medium;
+    }
+    .form-text-bottom{font-weight: normal;
+      font-size: medium; padding-top: 50px; padding-bottom:150px;
+    }
+    .textbox{border-top-style: inset;}
+    button{background-color: rgb(0,126,229);
+      border-radius: 5px;
+      width: 100%;
+      height: 40px;
+      color: white;}
+      button:hover {background-color: rgb(0, 81, 146);}
+      p{line-height: 1.9;}
+      .art{
+        text-align: center; }
+        .art-image{vertical-align: top;
+       padding-left: 10px;
+       padding-right: 10px;
+     padding-top: 50px;}
+        .footer-title{color: rgb(153,153,153);margin-bottom: 10px;}
+        .footer{font-size: 15px;color: rgb(153,153,153);line-height: 1.7; font-weight: normal; margin-top: 16px; margin-bottom: 16px;}
+        .footer-black {color: rgb(68, 68, 68);}
