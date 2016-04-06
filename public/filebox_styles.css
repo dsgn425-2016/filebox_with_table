@@ -1,0 +1,84 @@
+.main-content {
+  width: 100%
+}
+
+body {
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
+  font-family: "Open Sans";
+}
+
+.heading {
+  color: rgb(0,126,229);
+  font-size: 16px;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%;
+  font-family: "Open Sans";
+}
+
+h3 {
+  font-weight: 100;
+  line-height: 200%;
+  font-size: 20px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 125%;
+}
+
+a {
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.primary-button {
+  background-color: rgb(0,126,229);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.imgcell {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.textcell {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.formcell {
+  font-family: "Arial";
+  font-size: medium;
+  line-height: 80%;
+  padding-top: 80px;
+  padding-bottom: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.margin {
+  width=10px
+}
+.footer {
+  color: grey;
+  font-family: sans-serif;
+}
