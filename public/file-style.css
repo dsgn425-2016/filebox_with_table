@@ -1,35 +1,26 @@
 .landing-content {
-<<<<<<< HEAD
   width:960px;
   margin:auto;
-=======
   width:100%;
->>>>>>> origin/ahalya-v-landing
 }
 body{
   font-family: 'Open Sans', sans-serif;
   background-color:rgb(251, 251, 251);
-<<<<<<< HEAD
   font-weight:300;
   color:rgb(68, 68, 68);
-=======
   font-weight:lighter;
->>>>>>> origin/ahalya-v-landing
 }
 
 .header{
   color:rgb(0,126,229);
 }
 
-<<<<<<< HEAD
 a {
   color:rgb(0,126,229);
   text-decoration:none;
   font-weight:normal;
 }
 
-=======
->>>>>>> origin/ahalya-v-landing
 .hero{
   text-align: center;
   no-repeat center center;
@@ -37,7 +28,6 @@ a {
   height:300px;
 }
 
-<<<<<<< HEAD
 .content-a{
   font-size:30px;
   line-height:125%;
@@ -77,8 +67,6 @@ a {
   vertical-align:text-top;
 }
 
-.row{
-=======
 .content1a{
   font-size:30px;
 }
@@ -92,7 +80,6 @@ a {
 }
 
 .first-row{
->>>>>>> origin/ahalya-v-landing
   vertical-align: text-top;
 }
 
@@ -100,23 +87,17 @@ button{
   background-color:rgb(0,126,229);
   color:white;
   height:40px;
-<<<<<<< HEAD
   width:460px;
-=======
   width:200px;
->>>>>>> origin/ahalya-v-landing
   border-radius:5px;
 }
 
 .fa-google{
   color:white;
 }
-<<<<<<< HEAD
 
 hr{
   display:block;
   border-style:inset;
   border-width:1px;
 }
-=======
->>>>>>> origin/ahalya-v-landing
