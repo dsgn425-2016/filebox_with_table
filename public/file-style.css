@@ -5,11 +5,18 @@
 body{
   font-family: 'Open Sans', sans-serif;
   background-color:rgb(251, 251, 251);
-  font-weight:lighter;
+  font-weight:300;
+  color:rgb(68, 68, 68);
 }
 
 .header{
   color:rgb(0,126,229);
+}
+
+a {
+  color:rgb(0,126,229);
+  text-decoration:none;
+  font-weight:normal;
 }
 
 .hero{
@@ -19,19 +26,46 @@ body{
   height:300px;
 }
 
-.content1a{
+.content-a{
   font-size:30px;
+  line-height:125%;
 }
 
-.content1b{
+.content-b{
   font-size:20px;
+  line-height:175%;
 }
 
-.content1a,.content1b{
+.content-c{
+  font-size:25px;
+  line-height:125%;
+}
+
+.content-a,.content-b,.content-c{
   padding-left:15px;
+  vertical-align: text-top;
 }
 
-.first-row{
+.content-form{
+  font-size:25px;
+  font-weight:lighter;
+}
+
+.inputform1{
+  vertical-align:top;
+  font-weight:normal;
+}
+
+.inputform2{
+  padding-left:350px;
+  font-weight:normal;
+}
+
+.images{
+  vertical-align:text-top;
+}
+
+.row{
   vertical-align: text-top;
 }
 
@@ -39,10 +73,16 @@ button{
   background-color:rgb(0,126,229);
   color:white;
   height:40px;
-  width:200px;
+  width:460px;
   border-radius:5px;
 }
 
 .fa-google{
   color:white;
+}
+
+hr{
+  display:block;
+  border-style:inset;
+  border-width:1px;
 }
