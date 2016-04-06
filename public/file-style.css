@@ -1,7 +1,6 @@
 .landing-content {
   width:960px;
   margin:auto;
-  width:100%;
 }
 body{
   font-family: 'Open Sans', sans-serif;
@@ -59,7 +58,6 @@ a {
 }
 
 .inputform2{
-  padding-left:350px;
   font-weight:normal;
 }
 
@@ -87,17 +85,10 @@ button{
   background-color:rgb(0,126,229);
   color:white;
   height:40px;
-  width:460px;
-  width:200px;
+  width:100%;
   border-radius:5px;
 }
 
 .fa-google{
   color:white;
-}
-
-hr{
-  display:block;
-  border-style:inset;
-  border-width:1px;
 }
