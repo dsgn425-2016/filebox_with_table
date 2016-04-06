@@ -1,0 +1,128 @@
+html {
+    display: block;
+    margin: 8px;
+    margin-top: 8px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+table{
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    -webkit-border-horizontal-spacing: 2px;
+    -webkit-border-vertical-spacing: 2px;
+    display: table-row-group;
+    vertical-align: middle;
+}
+
+td {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+    background-color: rgb(251, 251, 251);
+    color: rgb(68,68,68);
+    font-family: "Open Sans";
+}
+
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+
+.header-brand {
+  color: rgb(0,126,229);
+}
+a{
+  color: rgb(0,126,229);
+  text-decoration: none;
+  cursor: auto;
+}
+.hero{
+  text-align: center;
+}
+
+h1, h2 {
+  font-weight: 300;
+  line-height: 125%
+}
+
+h1{
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+h2{
+  display: block;
+    font-size: 1.5em;
+    -webkit-margin-before: 0.83em;
+    -webkit-margin-after: 0.83em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 175%;
+
+}
+
+.top-margin{
+  margin-top: 20px;
+}
+
+.top-padding{
+  padding-top: 50px;
+}
+
+.bottom-padding{
+  padding-bottom: 150px;
+}
+
+.sign-up-button{
+  background-color:rgb(0,126,229);
+  color: white;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.footer{
+  display: table-row;
+  vertical-align: text-top;
+}
+
+h4 {
+  color: gray;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+ul{
+  list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+  display: block;
+  padding-left: 0;
+}
+
+li{
+  display:list-item;
+  list-style: none;
+    list-style-type: none;
+    list-style-position: initial;
+    list-style-image: initial;
+}
+.li-footer{
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
