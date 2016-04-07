@@ -1,0 +1,96 @@
+.landing-content {
+  width:960px;
+  margin:auto;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  background-color:rgb(251, 251, 251);
+  font-weight:300;
+  color:rgb(68, 68, 68);
+  font-weight:lighter;
+}
+
+.header{
+  color:rgb(0,126,229);
+}
+
+a {
+  color:rgb(0,126,229);
+  text-decoration:none;
+  font-weight:normal;
+}
+
+.hero{
+  text-align: center;
+  no-repeat center center;
+  background-size:cover;
+  height:300px;
+}
+
+.content-a{
+  font-size:30px;
+  line-height:125%;
+}
+
+.content-b{
+  font-size:20px;
+  line-height:175%;
+}
+
+.content-c{
+  font-size:25px;
+  line-height:125%;
+}
+
+.content-a,.content-b,.content-c{
+  padding-left:15px;
+  vertical-align: text-top;
+}
+
+.content-form{
+  font-size:25px;
+  font-weight:lighter;
+}
+
+.inputform1{
+  font-weight:normal;
+  padding-top:55px;
+}
+
+.inputform2{
+  font-weight:normal;
+}
+
+.images, .row-cells{
+  padding-top:50px;
+}
+
+button{
+  background-color:rgb(0,126,229);
+  color:white;
+  height:40px;
+  width:100%;
+  border-radius:5px;
+}
+
+.fa-google{
+  color:white;
+}
+
+.footer-headings{
+  margin-top:170px;
+  color: rgb(153,153,153);
+  font-size:16px;
+  font-weight: 700;
+  vertical-align: text-top;
+}
+
+.list-items,.list-items2{
+  color:rgb(119,119,119);
+  font-weight:normal;
+  vertical-align: text-top;
+}
+
+.list-items2{
+  padding-bottom:40px;
+}
