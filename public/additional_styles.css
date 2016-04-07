@@ -1,0 +1,17 @@
+.main-content{
+width: 100%;
+}
+
+.header {
+    font-family: 'Passion One';
+    font-size: xx-large;
+}
+
+.top-row{
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.heading-row{
+  text-align:center;
+}
