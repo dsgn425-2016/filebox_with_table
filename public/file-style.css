@@ -53,32 +53,16 @@ a {
 }
 
 .inputform1{
-  vertical-align:top;
   font-weight:normal;
+  padding-top:55px;
 }
 
 .inputform2{
   font-weight:normal;
 }
 
-.images{
-  vertical-align:text-top;
-}
-
-.content1a{
-  font-size:30px;
-}
-
-.content1b{
-  font-size:20px;
-}
-
-.content1a,.content1b{
-  padding-left:15px;
-}
-
-.first-row{
-  vertical-align: text-top;
+.images, .row-cells{
+  padding-top:50px;
 }
 
 button{
@@ -91,4 +75,26 @@ button{
 
 .fa-google{
   color:white;
+}
+
+.footer-headings,.footer-headings2{
+  margin-top:170px;
+  color: rgb(153,153,153);
+  font-size:16px;
+  font-weight: 700;
+  vertical-align: text-top;
+}
+
+.footer-headings2{
+  /*padding-bottom:40px;*/
+}
+
+.list-items,.list-items2{
+  color:rgb(119,119,119);
+  font-weight:normal;
+  vertical-align: text-top;
+}
+
+.list-items2{
+  /*padding-bottom:80px;*/
 }
