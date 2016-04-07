@@ -1,7 +1,8 @@
 
 .main-content {
 
-  width: 100%;
+  width: 960px;
+  margin: auto;
 }
 
 
@@ -34,11 +35,11 @@ button{
 
 
 .low-button{
-  border-top-color: black;
+  border-top-color: grey;
   border-top-style: solid;
   border-width: 0.5px;
-  padding-top: 20px;
-  margin-top: 20px;
+  padding-top: 10px;
+  margin-top: 10px;
 }
 
 .get-started-cell{
@@ -62,6 +63,13 @@ p{
   color: grey;
 }
 
+a{
+  color: rgb(0,126,229);
+  text-decoration: none;
+
+}
+
+
 .footer{
   color:grey;
   font-size: 16px;
@@ -70,4 +78,8 @@ p{
   padding-right: 10px;
   padding-bottom: 10px;
   padding-top: 150px;
+}
+
+li{
+  list-style: none;
 }
