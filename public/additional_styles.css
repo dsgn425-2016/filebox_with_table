@@ -1,0 +1,72 @@
+
+.main-content{
+  width: 960px;
+  margin: auto;
+}
+
+.navbar{
+  font-family: 'Open Sans';
+  color: rgb(0,126,229);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.hero{
+  background: url("hero.png") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+body{
+  background-color: rgb(251,251,251);
+  color: rgb(68,68,68);
+  font-family: 'Open Sans';
+}
+.center-allign{
+  text-align: center;
+}
+
+h1{
+  font-weight: 300;
+  line-height: 125%;
+}
+
+h2{
+  font-weight: 300;
+}
+p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+.margin-above-top{
+  margin-top: 20px;
+}
+
+.button{
+  background-color: rgb(0,126,229);
+  width:100%;
+  color:white;
+  border-radius: 5px;
+  height: 40px;
+}
+
+form{
+  display: block;
+}
+
+table{
+  border-collapse: separate;
+}
+
+.h4-footer{
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.ul-footer{
+  list-style: none;
+  padding: 0;
+}
