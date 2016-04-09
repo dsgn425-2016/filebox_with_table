@@ -1,0 +1,14 @@
+body {
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
+  font-family: "Open Sans";
+}
+
+td {
+  border: thin red solid;
+}
+
+.main-content {
+  width: 960px;
+  margin: auto;
+}
