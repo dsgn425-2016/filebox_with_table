@@ -59,45 +59,8 @@ button:hover {
   margin-top: 20px;
 }
 
-
-.take-your-docs{
-  background: url("docs-anywhere.png")
-  no-repeat center center;
-  background-size: cover;
-  height: 300px;
-  padding-top: 50px;
-}
-
-.send-videos{
-  background: url("send-videos-quickly.png")
-  no-repeat center center;
-  background-size: cover;
-  height: 300px;
-  padding-top: 50px;
-}
-
-.photos-safe{
-  background: url("keep-your-photos-safe.png")
-  no-repeat center center;
-  background-size: cover;
-  height: 300px;
-  padding-top: 50px;
-}
-
-.work-on-slides{
-  background: url("work-on-slides-together.png")
-  no-repeat center center;
-  background-size: cover;
-  height: 300px;
-  padding-top: 50px;
-}
-
-.never-lose{
-  background: url("never-lose-a-file-again.png")
-  no-repeat center center;
-  background-size: cover;
-  height: 300px;
-  padding-top: 50px;
+.reasons-for-use{
+padding-top:50px;
 }
 
 .footer-list-title{
@@ -113,7 +76,8 @@ button:hover {
 }
 
 .get-started-now{
-  margin-bottom:150px;
+  padding-top: 50px;
+  padding-bottom:150px;
 }
 
 .footer-list-item{
