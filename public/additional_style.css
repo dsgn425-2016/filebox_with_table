@@ -5,7 +5,8 @@ body{
 
 td{
   border: thin red solid;
-    vertical-align: top;
+  vertical-align: top;
+    padding-bottom: 40px;
 }
 
 .main-content{
@@ -20,12 +21,8 @@ td{
   text-align: center;
 }
 
-h1, h2, h3{
+p, h1, h2, h3{
   font-weight: 300;
-}
-
-.p-blue{
-    color: rgb(0,126,229);
 }
 
 .button{
@@ -34,4 +31,18 @@ h1, h2, h3{
   height: 40px;
   width: 400px;
   border-radius:5px;
+}
+
+h4{
+  color: gray;
+}
+
+ul{
+  padding-left: 0;
+}
+
+li{
+  color: gray;
+  list-style: none;
+  padding-bottom: 10px;
 }
