@@ -1,0 +1,37 @@
+body{
+  color: rgb(68,68,68);
+  font-family: 'Open Sans', sans-serif;
+}
+
+td{
+  border: thin red solid;
+    vertical-align: top;
+}
+
+.main-content{
+  width: 960px;
+}
+
+.header{
+  color: rgb(0,126,229);
+}
+
+.hero{
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-weight: 300;
+}
+
+.p-blue{
+    color: rgb(0,126,229);
+}
+
+.button{
+  background-color: rgb(8, 126, 229);
+  color: white;
+  height: 40px;
+  width: 400px;
+  border-radius:5px;
+}
