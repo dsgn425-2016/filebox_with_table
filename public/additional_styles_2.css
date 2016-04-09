@@ -1,0 +1,19 @@
+body{
+  background-color: rgb(251,251,251);
+  color: rgb(68,68,68);
+  
+}
+
+.main_content {
+width: 960px;
+margin-bottom: auto;
+margin-top:auto;
+margin-right: auto;
+margin-left: auto;
+}
+table{
+display: table;
+border-color: grey;
+border-spacing: 2px;
+
+}
