@@ -1,0 +1,81 @@
+body{
+  font-family: 'Open Sans';
+  color: rgb(68,68,68);
+  background-color: rgb(251, 251, 251);
+}
+
+.main-content{
+width: 960px;
+border-collapse: separate;
+margin: auto;
+}
+
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1, h2{
+  font-weight: 300;
+  line-height: 125%;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+a{
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+.navigation{
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+
+.get-started{
+  text-align: left center;
+  vertical-align: top;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.header {
+  text-align: center;
+}
+
+.filebox-form{
+  margin-top: 20px;
+}
+
+.content-padding{
+  padding-top: 50px;
+}
+
+.button{
+  width: 100%;
+  background-color: rgb(0,126,229);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.button:hover {
+  background-color: rgb(0, 65, 117);
+}
+
+.h4-footer{
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.div-footer{
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
