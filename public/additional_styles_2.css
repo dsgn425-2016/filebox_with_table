@@ -72,6 +72,8 @@ input{
   border-radius: 5px;
   height: 40px;
   font: Arial;
+  padding: 1px 6px;
+  align-items: flex-start;
 }
 .middle_row_pad{
   padding-top: 50px;
