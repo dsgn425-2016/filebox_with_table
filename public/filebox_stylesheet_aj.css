@@ -1,0 +1,95 @@
+
+.main_content{width: 960px;
+margin: auto;
+vertical-align: middle;}
+
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+td{
+  width: 470px;
+}
+
+.header{
+  color: rgb(0,126,229);
+
+}
+
+.hero_image{
+height:312px;
+}
+
+
+h1{
+font-size: 32px;
+font-weight: 300;
+line-height: 125%;
+}
+
+.body_content{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+h2{
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 125%;
+}
+
+p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 175%;
+}
+
+.form_content{
+}
+
+a{
+  color: rgb(0,126,229);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.blue_button{
+  background-color: rgb(0,126,229);
+color: white;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.bottom_form{
+  align-items: center;
+}
+
+.footer_text{
+  color: rgb(153,153,153);
+  text-align: left;
+  vertical-align: top;
+}
+
+h3{
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 10px;
+}
+ul{
+  list-style: none;
+  padding-left: 0px;
+}
+
+li{
+  display: list-item;
+list-style: none;
+vertical-align: top;
+padding-left: 0px;
+  list-style-position: initial;
+  list-style-image: initial;
+margin-bottom: 10px;
+}
