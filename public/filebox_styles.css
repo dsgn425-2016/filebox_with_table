@@ -1,0 +1,33 @@
+.main-content {
+  width: 100%;
+}
+td {
+  vertical-align: top;
+  border: thin red solid;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+.hero {
+  text-align: center;
+  height: 300px;
+}
+h1 {
+  display: block;
+  font-size: 2em;
+  margin-bottom: 0.67em;
+  margin-top: 0.67em;
+}
+h1,h2{
+  font-weight: 300;
+  line-height: 125%;
+}
+button {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0,126,229)
+}
