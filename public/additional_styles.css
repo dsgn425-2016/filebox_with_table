@@ -1,0 +1,53 @@
+td{
+  border: thin red solid;
+}
+
+.main-content{
+  width: auto;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+a:-webkit-any-link {
+  color: rgb(0,126,229);
+  text-decoration:none;
+  cursor: auto;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  rgb(68,68,68);
+  vertical-align:
+}
+
+h1, h2{
+  font-weight: 300;
+
+}
+
+button{
+  background-color: rgb(0,126,229);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 460px;
+}
+
+/* Sections */
+.header{
+  color: rgb(0,126,229);
+
+}
+
+.hero{
+  background: url(hero.png) no-repeat center center;
+  height: 300px;
+}
+
+.get-started, .sign-up{
+  text-align: center;
+}
