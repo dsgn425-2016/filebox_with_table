@@ -1,0 +1,8 @@
+.hero {
+  color: white;
+  text-align: center;
+  background: url("hero.png") no-repeat center center;
+  background-size: cover;
+  height: 400px;
+  vertical-align: middle;
+}
