@@ -65,6 +65,15 @@ li{
   color: black;
 }
 
+.fa{
+  display: inline-block;
+}
+
+.fa-fw{
+  width: 1.28571em;
+  text-align: center;
+}
+
 .top-padding{
   padding-top: 50px;
 }
