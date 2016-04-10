@@ -1,0 +1,117 @@
+.main-content {
+  width: 960px;
+  margin: auto;
+
+}
+
+td {
+  border: thin red solid;
+}
+
+.header {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: rgb(68, 68 ,68);
+  line-height: 40px;
+  margin-bottom: 25px;
+}
+
+.marketing {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 35px
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  }
+
+a{
+  color: rgb(0, 126, 229);
+  text-decoration: none;
+}
+
+button{
+  background-color: rgb(0, 126, 229);
+  width: 800px;
+  border-radius: 5px;
+  height: 40px;
+}
+
+h2{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 125%;
+}
+
+.topnav {
+    color:rgb(0, 126, 229);
+    font-size: 16px
+}
+
+.heading-row  {
+  text-align: center;
+}
+
+.how-to-images  {
+  width:200px;
+  border-radius: 50%;
+}
+
+.sound-bite-images  {
+  width:70px;
+  border-radius: 50%;
+  vertical-align:top;
+}
+
+.how-to-cell {
+  text-align: center;
+}
+
+.hero {
+  color: white;
+  text-align: center;
+  background: url("hero.png")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+.app {
+  color: white;
+  text-align: center;
+  background: url("download-hero.jpg")no-repeat center center;
+  background-size: cover;
+  height: 300px;
+}
+
+button {
+  background-color: rgb(0,126,229);
+  height: 40px;
+  width: 200px;
+  border-radius: 5px;
+  color: white;
+}
+
+.appbuttons {
+  width: 200px;
+}
+
+
+.icons {
+  color: white;
+}
+
+
+
+.footer {
+  color: white;
+  background-color: rgb(50,  50,  170);
+  vertical-align: text-top;
+}
+
+.paddingtest {
+  padding: 5px;
+}
