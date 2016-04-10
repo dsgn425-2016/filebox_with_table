@@ -2,10 +2,14 @@
 <html>
 
 <head>
-  <meta <charset="utf-8">
+  <meta charset="utf-8">
   <title>Filebox</title>
 
   <link rel="stylesheet" href='additionalstyle.css'>
+  <!--Open sans font-->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+  <!--Font Awesome icons-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
 </head>
 
@@ -13,110 +17,194 @@
 <body>
 
   <table class="main-content">
-    <tr>  <!--Top row -->
-      <td colspan="6">(logo) Filebox</td>
-      <td colspan="2">Download the app</td>
-      <td colspan="2">Sign in	</td>
-      <td colsapn="2">Try Filebox Business</td>
-    </tr>
+    <tr class='top-bar'>  <!--Top row -->
+      <td colspan="6">
+        <a href='http://google.com'><i class="fa fa-lg fa-fw fa-dropbox"></i>
+          Filebox</a>
+        </td>
+        <td colspan="2"><a href='http://google.com'>Download the app</a></td>
+        <td colspan="2"><a href='http://google.com'>Sign in</a></td>
+        <td colsapn="2"><a href='http://google.com'>Try Filebox Business</a></td>
+      </tr>
 
-    <tr> <!--Row two - hero image-->
-      <td><img src="hero.png" alt="" />
-      </td>
-    </tr>
+      <tr> <!--Row two - hero image-->
+        <td colspan='12'><img src="hero.png" alt="" />
+        </td>
+      </tr>
 
-    <tr> <!--Row three - two sections -->
-      <td colspan='6'> <!--text section on left -->
-        <h2>Filebox works the way you do</h2>
-        <p>Get to all your files from anywhere, on any device, and share them with anyone.</p>
-      </td>
-      <td colspan='6'> <!--Section on right with buttons -->
-        <tr>
-        </tr>
-      </td>
-    </tr>
+      <tr> <!--Row three - two sections -->
+        <td colspan='6'> <!--text section on left -->
+          <h1>Filebox works the way you do</h1>
+          <p>Get to all your files from anywhere, on any device, and share them with anyone.</p>
+        </td>
+        <td colspan='6'> <!--Section on right with buttons -->
+          <form class="margin-above-section">
+            <div>
+              <label>Full name</label>
+              <input type="text" placeholder="Full name">
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="text" placeholder="Email">
+            </div>
+            <div>
+              <label>Password</label>
+              <input type="text" placeholder="Password">
+            </div>
+            <div>
+              <input type='checkbox'>
+              <label>I agree to <a href='http://google.com'>Filebox terms</a></label>
+            </div>
+          </form>
+          <button class="main-button" type="submit">Sign up for free
+          </button>
+          <hr></hr>
+          <button class="main-button" type="submit">
+            <i class="fa fa-google"></i>
+            Sign up free with Google
+          </button>
+        </td>
+      </tr>
 
-    <tr> <!--Row 4 - words on left pic on right -->
-      <td colspan='6'> <!--text-->
-        <h3>Take your docs anywhere</h3>
-        <p>Save files on your computer, then access them on your phone from the road. Everything you keep in Filebox is synced automatically to all your devices.</p>
-      </td>
-      <td colspan='6'> <!--pic trailer -->
-        <img src="docs-anywhere.png" alt="" />
-      </td>
-    </tr>
+      <tr> <!--Row 4 - words on left pic on right -->
+        <td colspan='6' class="top-padding"> <!--text-->
+          <h2>Take your docs anywhere</h2>
+          <p>Save files on your computer, then access them on your phone from the road. Everything you keep in Filebox is synced automatically to all your devices.</p>
+        </td>
+        <td colspan='6' class="top-padding"> <!--pic trailer -->
+          <img src="docs-anywhere.png" alt="" />
+        </td>
+      </tr>
 
-    <tr> <!--Row 5 - fish on left, text right -->
-      <td colspan='6'> <!--pic-->
-        <img src="send-videos-quickly.png" alt="" />
-      </td>
-      <td colspan='6'> <!--tex-->
-        <h3>Send videos quickly</h3>
-        <p>Send your entire wedding video to family with a simple link. It’s easy to share large files with anyone — even if they don’t have a Filebox account.</p>
-      </td>
-    </tr>
+      <tr> <!--Row 5 - fish on left, text right -->
+        <td colspan='6' class="top-padding"> <!--pic-->
+          <img src="send-videos-quickly.png" alt="" />
+        </td>
+        <td colspan='6' class="top-padding"> <!--tex-->
+          <h2>Send videos quickly</h2>
+          <p>Send your entire wedding video to family with a simple link. It’s easy to share large files with anyone — even if they don’t have a Filebox account.</p>
+        </td>
+      </tr>
 
-    <tr> <!--Row 6 - words on left camera pic on right -->
-      <td colspan='6'> <!--text-->
-        <h3>Keep your photos safe</h3>
-        <p>Back up vacation photos automatically from your phone or computer. That way, memories are safe as soon as you make them, and you can relive them from any device.</p>
-      </td>
-      <td colspan='6'> <!--beach camera pic -->
-        <img src="keep-your-photos-safe.png" alt="" />
-      </td>
-    </tr>
+      <tr> <!--Row 6 - words on left camera pic on right -->
+        <td colspan='6' class="top-padding"> <!--text-->
+          <h2>Keep your photos safe</h2>
+          <p>Back up vacation photos automatically from your phone or computer. That way, memories are safe as soon as you make them, and you can relive them from any device.</p>
+        </td>
+        <td colspan='6' class="top-padding"> <!--beach camera pic -->
+          <img src="keep-your-photos-safe.png" alt="" />
+        </td>
+      </tr>
 
-    <tr> <!--Row 7 - doc pic on left, text right -->
-      <td colspan='6'> <!--pic-->
-        <img src="work-on-slides-together.png" alt="" />
-      </td>
-      <td colspan='6'> <!--text-->
-        <h3>Work on slides together</h3>
-        <p>Edit a presentation with teammates without emailing files back and forth. When you edit a file in a shared folder, everyone gets the update automatically.</p>
-      </td>
-    </tr>
+      <tr> <!--Row 7 - doc pic on left, text right -->
+        <td colspan='6' class="top-padding"> <!--pic-->
+          <img src="work-on-slides-together.png" alt="" />
+        </td>
+        <td colspan='6' class="top-padding"> <!--text-->
+          <h2>Work on slides together</h2>
+          <p>Edit a presentation with teammates without emailing files back and forth. When you edit a file in a shared folder, everyone gets the update automatically.</p>
+        </td>
+      </tr>
 
-    <tr> <!--Row 8 - words on left train pic on right -->
-      <td colspan='6'> <!--text-->
-        <h3>Never lose a file again</h3>
-        <p>Left your phone on the train? Your photos, docs, and videos are safe. Just sign in to Filebox from any device, and your files will be there waiting for you.</p>
-      </td>
-      <td colspan='6'> <!--train camera pic -->
-        <img src="never-lose-a-file-again.png" alt="" />
-      </td>
-    </tr>
+      <tr> <!--Row 8 - words on left train pic on right -->
+        <td colspan='6' class="top-padding"> <!--text-->
+          <h2>Never lose a file again</h2>
+          <p>Left your phone on the train? Your photos, docs, and videos are safe. Just sign in to Filebox from any device, and your files will be there waiting for you.</p>
+        </td>
+        <td colspan='6' class="top-padding"> <!--train camera pic -->
+          <img src="never-lose-a-file-again.png" alt="" />
+        </td>
+      </tr>
 
-    <tr> <!-- Row 9 Get Started Now centered -->
-      <td> <!-- text centered-->
-        <h3>Get started now</h3>
+      <tr> <!-- Row 9 Get Started Now centered -->
+        <td colspan='4'></td>
+        <td colspan='4' class="top-padding
+        bottom-padding"> <!-- text centered-->
+        <h2>Get started now</h2>
+        <form class="margin-above-section">
+          <div>
+            <label>Full name</label>
+            <input type="text" placeholder="Full name">
+          </div>
+          <div>
+            <label>Email</label>
+            <input type="text" placeholder="Email">
+          </div>
+          <div>
+            <label>Password</label>
+            <input type="text" placeholder="Password">
+          </div>
+          <div>
+            <input type='checkbox'>
+            <label>I agree to <a href='http://google.com'>Filebox terms</a></label>
+          </div>
+        </form>
+        <button class="main-button" type="submit">Sign up for free
+        </button>
+        <hr></hr>
+        <button class="main-button" type="submit">
+          <i class="fa fa-fw fa-google">
+            ::before
+          </i>
+          Sign up free with Google
+        </button>
         <div><!--fill in areas and buttons --></div>
       </td>
+      <td></td>
     </tr>
 
     <tr> <!-- Last row -->
       <td colspan='2'>
         <h4>Filebox</h4>
-        <ul> </ul>
+        <ul>
+          <li class="li-first">Desktop app</li>
+          <li class="li-first">Mobile apps</li>
+          <li class="li-first">Plans</li>
+          <li class="li-first">Security</li>
+        </ul>
       </td>
       <td colspan='2'>
         <h4>Company</h4>
-        <ul>  </ul>
+        <ul>
+          <li>About us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
       </td>
       <td colspan='2'>
         <h4>Support</h4>
-        <ul>  </ul>
+        <ul>
+          <li>Help Center</li>
+          <li>Get started</li>
+          <li>Contact</li>
+          <li>Privacy & terms</li>
+        </ul>
       </td>
       <td colspan='2'>
         <h4>Community</h4>
-        <ul>  </ul>
+        <ul>
+          <li>Developers</li>
+          <li>Referrals</li>
+          <li>Forum</li>
+        </ul>
       </td>
       <td colspan='2'>
         <h4>Connect</h4>
-        <ul>  </ul>
+        <ul>
+          <li>Twitter</li>
+          <li>Facebook</li>
+          <li>Google+</li>
+          <li>YouTube</li>
+        </ul>
       </td>
       <td colspan='2'>
         <h4>Products</h4>
-        <ul>  </ul>
+        <ul>
+          <li>Pro</li>
+          <li>Business</li>
+          <li>Enterprise</li>
+        </ul>
       </td>
     </tr>
 
