@@ -1,0 +1,83 @@
+.main-content {
+  width: 960px;
+  margin: auto;
+}
+td {
+  vertical-align: top;
+  border: none;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(251,251,251);
+}
+.hero {
+  text-align: center;
+  height: 300px;
+}
+h1 {
+  display: block;
+  margin-bottom: 0.67em;
+  margin-top: 0.67em;
+}
+h1,h2{
+  font-weight: 300;
+  line-height: 125%;
+}
+button {
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  color: white;
+  background-color: rgb(0,126,229)
+}
+.headerfont {
+  color:rgb(0,126,229)
+}
+.center {
+  text-align: center;
+}
+.rightalign {
+  text-align: right;
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+a {
+  text-decoration: none;
+  color: rgb(0,126,229);
+}
+h4 {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  color: rgb(68,68,68);
+}
+.lifooter {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
+.topinsidepad {
+  padding-top: 50px;
+}
+.topmargin {
+  margin-top: 20px;
+}
+.paddingtopbottom {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.fa-lg {
+  font-size: 4em;
+  line-height: .75em;
+  text-align: center;
+  width:1.28em;
+}
