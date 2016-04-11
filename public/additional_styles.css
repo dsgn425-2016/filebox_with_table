@@ -10,10 +10,6 @@ body {
 }
 
 td {
-  border: thin gray solid;
-}
-
-td {
   vertical-align: top;
   padding-left: 10px;
   padding-right: 10px;
@@ -36,4 +32,23 @@ p {
   color: white;
   border-radius: 5px;
   height: 40px;
+  transition: all 0.2s ease-in-out;
+}
+
+.h4-footer{
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+
+.li-footer {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
+
+.ul-footer {
+  list-style: none;
+  padding-left: 0;
 }
