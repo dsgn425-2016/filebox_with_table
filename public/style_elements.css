@@ -1,0 +1,76 @@
+.main-content {
+font-family: 'Open Sans', sans-serif;
+background-color: rgb(251,251,251);
+font-weight: lighter;
+font-size:20px;
+line-height: 175%;
+}
+
+.nav_bar {
+  color: rgb(0, 126, 229);
+  font-size: 16px;
+  font-weight: normal;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.get_started_row {
+text-align: justify;}
+
+.how_to_cell {
+  vertical-align: top;
+}
+
+.login_box {
+  font-weight: normal;;
+  font-size:16px;
+  line-height: 120%
+}
+
+.footer-row {
+  font-size: 16px;
+  vertical-align: text-top;
+}
+table {
+  padding-left: 250px;
+  padding-right: 250px;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 32px;
+  vertical-align: text-top;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h2 {
+  font-weight: lighter;
+  font-size: 24px;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+h4 {
+  color: grey;
+  font-size: 16px;
+}
+
+li {
+  list-style-type: none;
+  line-height: 150%;
+}
+ul {
+  padding: 0;
+}
+
+button {
+  background-color: rgb(0,126,229);
+  color: white;
+  width: 500px;
+  height: 40px;
+  border-radius: 5%;
+  margin: 5px;
+}
