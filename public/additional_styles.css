@@ -29,8 +29,9 @@ align-items: baseline;
 }
 
 .footrules {
-  list-style: none;
+  list-style-type: none;
   padding-left: 0;
+  color: rgb(153,153,153)
 }
 
 .getstarted {
@@ -67,7 +68,7 @@ transition: all 0.5s ease-out
 }
 
 .headercolor {
-background-color: white;
+background-color: rgb(251, 251, 251);
 color: rgb(0,126,229);
 font-family: 'Open Sans';
 font-size: medium;
@@ -132,6 +133,7 @@ text-indent: .8%
 
 body {
 font-family: 'Open Sans', sans-serif;
+background-color: rgb(251, 251, 251);
 }
 .hero {
   color: white;
