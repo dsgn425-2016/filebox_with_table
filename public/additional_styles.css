@@ -1,12 +1,10 @@
 .main-content {
   width: 960px;
   margin: auto;
-
 }
 
 td {
-  
-}
+  }
 
 .header {
   font-family: 'Open Sans', sans-serif;
@@ -26,6 +24,7 @@ td {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(251, 251, 251) ;
   }
 
 a{
