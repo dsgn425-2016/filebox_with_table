@@ -1,0 +1,16 @@
+.main-content{
+  width:100%;
+}
+
+.navigation-bar{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0,126,229);
+}
+
+.button{
+    color: rgb(0,126,229);
+}
+
+.center{
+  text-align: center;
+}
