@@ -4,12 +4,13 @@
 }
 td {
   vertical-align: top;
-  border: thin red solid;
+  border: none;
   padding-right: 10px;
   padding-left: 10px;
 }
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: rgb(251,251,251);
 }
 .hero {
   text-align: center;
@@ -39,4 +40,28 @@ button {
 }
 .rightalign {
   text-align: right;
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+a {
+  text-decoration: none;
+  color: rgb(0,126,229);
+}
+h4 {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  color: rgb(68,68,68);
+}
+.lifooter {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
 }
