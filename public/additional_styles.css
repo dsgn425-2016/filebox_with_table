@@ -1,3 +1,92 @@
-.main-content{
+body{
+  width: 960px;
+  margin: auto;
+  margin-top: 8px;
+  background-color: rgb(251, 251, 251);
+  font-weight: 300;
+}
+
+table{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgb(68, 68, 68);
+  background-color: rgb(251, 251, 251);
+}
+.navigation{
+  color: rgb(0, 126, 229);
+  font-size: 12pt;
+  vertical-align: top;
+  margin: none;
+  text-decoration: none;
+  padding-top: 10px;
+  font-weight: 500;
+}
+.fa{
+  size: 30px;
+  color: rgb(0, 126, 229);
+}
+.hero{
+  text-align: center;
+  padding-bottom: 10px;
+}
+.link{
+  color: rgb(0, 126, 229);
+  text-decoration: none;
+}
+button{
+  background-color: rgb(0, 126, 229);
+  color: white;
+  height: 40px;
   width: 100%;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+  color: rgb(119,119,119);
+}
+li{
+  margin-bottom: 10px;
+}
+
+h4{
+  color: rgb(153,153,153);
+  text-align: top;
+}
+.footer{
+  vertical-align: top;
+}
+h1, h2{
+  font-weight: 300;
+  margin-top: 5px;
+}
+h3{
+  font-weight: 300;
+  line-height: 175%;
+  font-size: 15pt;
+
+}
+.inputs{
+  font-weight: 400;
+  vertical-align: top;
+
+}
+hr{
+  color: rgb(68, 68, 68);
+}
+td{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.padding-images{
+  padding-top: 50px;
+}
+.align-to-hero{
+  vertical-align: top;
+}
+td{
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.padding-get-started{
+  padding-bottom: 150px;
 }
