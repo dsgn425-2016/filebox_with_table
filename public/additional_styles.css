@@ -20,17 +20,26 @@ a {
   text-decoration: none;
 }
 
+
+td {
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 /* Images (mci)*/
 .mci{
-  width: 100%;
-  vertical-align: middle;
+  width: 960px;
+  margin: auto;;
 }
 
 /* Main content text (mct)*/
 .mct{
+  width: 960px
   color: rgb(75,75,75);
   text-align: left;
   vertical-align: middle;
+  margin: auto;
 }
 /* Navigation */
 .hyper{
@@ -40,17 +49,31 @@ a {
 /*Hero*/
 
 /*Footer*/
-.foottext{
-  color: rgb(150,150,150);
+.h4foot {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
+.ulfoot {
+  list-style: none;
+  padding-left: 0;
+}
+.lifoot {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
+
+
 
 /*Form */
 button{
   background-color: rgb(0,126,229);
-  color: white;
   width: 100%;
-  height: 40px;
+  color: white;
   border-radius: 5px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
 }
 /* Padding */
 .padding-inside-top-xs {
