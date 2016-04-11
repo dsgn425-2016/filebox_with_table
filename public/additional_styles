@@ -1,0 +1,108 @@
+
+body {
+background-color:rgb(251, 251, 251);
+font-weight: 300;
+font-family: 'Open Sans', sans-serif;
+}
+
+Buttons
+.button-6 {
+background-color: rgb(0,126,229);
+width: 75%;
+color: white;
+border-radius: 10px;
+height: 50 px;
+}
+
+Margins
+.margin-top-10 {
+margin-top: 10px;
+}
+
+.margin-top-20 {
+margin-top: 20px;
+}
+
+.margin-top-50 {
+margin-top: 50px;
+}
+
+.margin-top-150 {
+margin-top: 150px;
+}
+
+.margin-below-10 {
+margin-bottom: 10px;
+}
+
+.margin-below-20 {
+margin-bottom: 20px;
+}
+
+.margin-below-50 {
+margin-bottom: 50px;
+}
+
+.margin-below-150 {
+margin-bottom: 150px;
+}
+
+Padding
+.padding-top-10 {
+  padding-top: 10px;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
+
+.padding-top-50 {
+  padding-top: 50px;
+}
+
+.padding-top-150 {
+  padding-top: 150px;
+}
+
+.padding-top-200 {
+  padding-top: 200px;
+}
+
+.padding-bottom-10 {
+  padding-bottom: 10px;
+}
+
+.padding-bottom-20 {
+  padding-bottom: 20px;
+}
+
+.padding-bottom-50 {
+  padding-bottom: 50px;
+}
+
+.padding-bottom-150 {
+  padding-bottom: 150px;
+}
+
+.padding-bottom-200 {
+  padding-bottom: 200px;
+}
+
+Footers
+
+.h4-footer {
+  color: rgb(153,153,153);
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.ul-footer {
+  list-style: none;
+  padding-left: 0;
+}
+
+.li-footer {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
