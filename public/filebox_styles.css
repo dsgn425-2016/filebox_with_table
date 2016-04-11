@@ -65,3 +65,19 @@ ul {
   color: rgb(119,119,119);
   margin-bottom: 10px;
 }
+.topinsidepad {
+  padding-top: 50px;
+}
+.topmargin {
+  margin-top: 20px;
+}
+.paddingtopbottom {
+  padding-top: 50px;
+  padding-bottom: 150px;
+}
+.fa-lg {
+  font-size: 4em;
+  line-height: .75em;
+  text-align: center;
+  width:1.28em;
+}
