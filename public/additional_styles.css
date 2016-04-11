@@ -1,0 +1,96 @@
+td{
+  vertical-align: top;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-content{
+  width: auto;
+}
+
+p{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+li{
+  display: list-item;
+  list-style: none;
+}
+
+a:-webkit-any-link {
+  color: rgb(0,126,229);
+  text-decoration:none;
+  cursor: auto;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(68,68,68);
+  vertical-align: top;
+  margin: 8px;
+  background-color: rgb(251, 251, 251);
+}
+
+h1, h2{
+  font-weight: 300;
+}
+
+.button-top{
+  background-color: rgb(0,126,229);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 460px;
+}
+
+.button-bottom{
+  background-color: rgb(0,126,229);
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  width: 348px;
+}
+
+/* Sections */
+.header{
+  color: rgb(0,126,229);
+}
+
+.hero{
+  background: url(hero.png) no-repeat center center;
+  height: 300px;
+}
+
+.sign-up{
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.get-started{
+  text-align: center;
+  vertical-align: top;
+  padding-bottom: 150px;
+  padding-top: 50px;
+}
+
+.ul-footer{
+  color: rgb(68,68,68);
+  text-align: left;
+  vertical-align: top;
+}
+
+.li-footer{
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.h4-footer{
+  color: rgb(153,153,153);
+  margin-bottom: 10px;
+  text-align: left;
+  vertical-align: top;
+}
