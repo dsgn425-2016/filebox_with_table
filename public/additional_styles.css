@@ -20,6 +20,11 @@ a {
   text-decoration: none;
 }
 
+/* Main content text (mct)*/
+.mainct{
+  width: 960px
+  margin: auto;
+}
 
 td {
   vertical-align: top;
@@ -27,26 +32,25 @@ td {
   padding-right: 10px;
 }
 
-/* Images (mci)*/
-.mci{
-  width: 960px;
-  margin: auto;;
+button{
+  background-color: rgb(0,126,229);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+  transition: all 0.2s ease-in-out;
 }
 
-/* Main content text (mct)*/
-.mct{
-  width: 960px
-  color: rgb(75,75,75);
-  text-align: left;
-  vertical-align: middle;
-  margin: auto;
-}
+
+
 /* Navigation */
 .hyper{
   color:rgb(0,0,255)
 }
 
-/*Hero*/
+.brandid{
+  align-content: center;;
+}
 
 /*Footer*/
 .h4foot {
@@ -67,14 +71,7 @@ td {
 
 
 /*Form */
-button{
-  background-color: rgb(0,126,229);
-  width: 100%;
-  color: white;
-  border-radius: 5px;
-  height: 40px;
-  transition: all 0.2s ease-in-out;
-}
+
 /* Padding */
 .padding-inside-top-xs {
   padding-top: 10px;
