@@ -1,0 +1,62 @@
+.main-content{
+  width: 960px;
+  margin: auto;
+}
+.header-brand{
+  color:rgb(0,126,229)
+}
+.header{
+    color:rgb(0,126,229)
+}
+.logo{
+
+}
+.hero{
+  text-align: center;
+  background-image: url(hero.png);
+  no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  vertical-align: middle;
+}
+.get-started{
+  text-align: left;
+}
+.footer{
+  vertical-align: top;
+}
+.li-footer {
+  color: rgb(119,119,119);
+  margin-bottom: 10px;
+}
+
+.ul-footer {
+  list-style: none;
+  padding-left: 0;
+}
+body{
+  font-family:'Open Sans';
+  background-color: rgb(251, 251, 251);
+  color: rgb(68,68,68);
+}
+p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 175%;
+}
+
+a {
+  color: rgb(0,126,229);
+  text-decoration: none;
+}
+h1, h2{
+  font-weight: 300;
+  line-height: 125%;
+}
+button {
+  background-color: rgb(0,126,229);
+  width: 100%;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+}
