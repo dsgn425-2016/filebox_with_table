@@ -1,4 +1,259 @@
-<h1>Good luck!</h1>
-<p>
-  "It's a very cold day out today"
-</p>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Filebox</title>
+
+  <meta charset="utf-8">
+
+  <!-- Connect to our own additional CSS -->
+  <link rel="stylesheet" href="additional_styles.css">
+
+  <!-- Connect to Google Web Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+  <style media="screen">
+
+  /*makes every boarder red*/
+  .bdr-color1{
+    border: 1px solid red;
+  }
+
+  .bdr-color2{
+    border: 2px solid purple;
+  }
+
+  h1, h2 {
+    font-weight: 300;
+    line-height: 125%;
+  }
+
+  /*p{font-size: 60px}*/
+  p {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 175%;
+  }
+
+  a {
+    color: rgb(0,126,229);
+    text-decoration: none;
+  }
+
+  /* Grid */
+  .main-content {
+    width: 960px;
+    margin: auto;
+  }
+
+  td {
+    vertical-align: top;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /************************************/
+  .padding-inside-top-xs {
+    padding-top: 10px;
+  }
+
+  .padding-inside-top-sm {
+    padding-top: 20px;
+  }
+
+  .padding-inside-top-md {
+    padding-top: 50px;
+  }
+
+  .padding-inside-top-lg {
+    padding-top: 150px;
+  }
+
+  .padding-inside-top-xl {
+    padding-top: 200px;
+  }
+
+  .padding-inside-bottom-xs {
+    padding-bottom: 10px;
+  }
+
+  .padding-inside-bottom-sm {
+    padding-bottom: 20px;
+  }
+
+  .padding-inside-bottom-md {
+    padding-bottom: 50px;
+  }
+
+  .padding-inside-bottom-lg {
+    padding-bottom: 150px;
+  }
+
+  .padding-inside-bottom-xl {
+    padding-bottom: 200px;
+  }
+
+  .margin-above-top-xs {
+    margin-top: 10px;
+  }
+
+  .margin-above-top-sm {
+    margin-top: 20px;
+  }
+
+  .margin-above-top-md {
+    margin-top: 50px;
+  }
+
+  .margin-above-top-lg {
+    margin-top: 150px;
+  }
+
+  .margin-below-bottom-xs {
+    margin-bottom: 10px;
+  }
+
+  .margin-below-bottom-sm {
+    margin-bottom: 20px;
+  }
+
+  .margin-below-bottom-md {
+    margin-bottom: 50px;
+  }
+
+  .margin-below-bottom-lg {
+    margin-bottom: 150px;
+  }
+
+  .margin-below-bottom-xl {
+    margin-bottom: 200px;
+  }
+  </style>
+</head>
+
+
+<body>
+  <table>
+    <!--TOP LEVEL NAVIGATION- -->
+    <tr>
+      <td colspan="6">
+        <a class="navbar-brand" href="https://www.google.com">
+          <i class="fa fa-lg fa-fw fa-dropbox"></i>
+          Filebox
+        </a>
+      </td>
+
+      <td colspan="2">
+        <a href="https://www.google.com" class="btn btn-link">
+          Download the app
+        </a>
+      </td>
+
+      <td colspan="2">
+        <a href="https://www.google.com" class="btn btn-link">
+          Sign in
+        </a>
+      </td>
+
+      <td colspan="2">
+        <a href="https://www.google.com" class="btn btn-default">
+          Try Filebox Business
+        </a>
+      </td>
+    </tr>
+
+    <!-- 2nd ROW: HERO BANNER -->
+    <tr>
+      <td colspan="12" class="bdr-color1">
+        <img src="hero.png">
+      </td>
+    </tr>
+
+    <!-- 3rd ROW: LOGIN -->
+    <tr>
+      <td colspan="6" class="bdr-color1" >
+        <h1>File box works the way you do</h1>
+        <p> Get to all your files from anywhere, on any device, and share them with anyone. </p>
+      </td>
+
+      <td colspan="6" class="bdr-color1">
+        <form class="margin-above-top-sm">
+          <div>
+            <label>
+              Full name
+            </label>
+
+            <input type="text" placeholder="Full name">
+          </div>
+
+          <div>
+            <label>
+              Email
+            </label>
+            <input type="email" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <label>
+              Password
+            </label>
+            <input type="password" placeholder="Password">
+          </div>
+
+          <div>
+            <label>
+              <input type="checkbox">
+              I agree to <a href="https://www.google.com">Filebox terms</a>
+            </label>
+          </div>
+
+          <button class="primary-button" type="submit">
+            Sign up for free
+          </button>
+
+          <hr>
+
+          <button class="primary-button" type="submit">
+            <i class="fa fa-fw fa-google"></i>
+            Sign up free with Google
+          </button>
+        </form>
+      </td>
+    </tr>
+
+    <!-- 4th ROW: DOCS ANYWHERE -->
+    <tr>
+      <td colspan="6" class="padding-inside-top-md bdr-color1">
+        <h2>
+          Take your docs anywhere
+        </h2>
+        <p>
+          Save files on your computer, then access them on your phone from the road. Everything you keep in Filebox is synced automatically to all your devices.
+        </p>
+      </td>
+
+      <td colspan="6" class="padding-inside-top-md bdr-color1" >
+        <img src="docs-anywhere.png">
+      </td>
+    </tr>
+
+    <!-- 5th ROW: SEND VIDEOS -->
+    <tr class="row padding-inside-top-lg padding-inside-bottom-md">
+      <td class="col-sm-offset-1 col-sm-4 bdr-color1">
+        <img src="send-videos-quickly.png" class="img-responsive">
+      </td>
+
+      <td class="col-sm-offset-2 col-sm-4 bdr-color1">
+        <h2>
+          Send videos quickly
+        </h2>
+        <p>
+          Send your entire wedding video to family with a simple link. It’s easy to share large files with anyone — even if they don’t have a Filebox account.
+        </p>
+      </td>
+    </tr>
+
+
+  </table>
+</body>
+</html>
