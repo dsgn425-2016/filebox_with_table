@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -6,156 +5,47 @@
 
   <meta charset="utf-8">
 
-  <!-- Connect to our own additional CSS -->
-  <link rel="stylesheet" href="additional_styles.css">
-
   <!-- Connect to Google Web Fonts -->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,300italic,400italic,600italic,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
+  <!-- Connect to our own additional CSS -->
+  <link rel="stylesheet" href="additional_styles.css">
+
   <style media="screen">
-
-  /*makes every boarder red*/
-  .bdr-color1{
-    border: 1px solid red;
-  }
-
-  .bdr-color2{
-    border: 2px solid purple;
-  }
 
   h1, h2 {
     font-weight: 300;
     line-height: 125%;
   }
 
-  /*p{font-size: 60px}*/
-  p {
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 175%;
-  }
-
-  a {
-    color: rgb(0,126,229);
-    text-decoration: none;
-  }
-
-  /* Grid */
-  .main-content {
-    width: 960px;
-    margin: auto;
-  }
-
-  td {
-    vertical-align: top;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  /************************************/
-  .padding-inside-top-xs {
-    padding-top: 10px;
-  }
-
-  .padding-inside-top-sm {
-    padding-top: 20px;
-  }
-
-  .padding-inside-top-md {
-    padding-top: 50px;
-  }
-
-  .padding-inside-top-lg {
-    padding-top: 150px;
-  }
-
-  .padding-inside-top-xl {
-    padding-top: 200px;
-  }
-
-  .padding-inside-bottom-xs {
-    padding-bottom: 10px;
-  }
-
-  .padding-inside-bottom-sm {
-    padding-bottom: 20px;
-  }
-
-  .padding-inside-bottom-md {
-    padding-bottom: 50px;
-  }
-
-  .padding-inside-bottom-lg {
-    padding-bottom: 150px;
-  }
-
-  .padding-inside-bottom-xl {
-    padding-bottom: 200px;
-  }
-
-  .margin-above-top-xs {
-    margin-top: 10px;
-  }
-
-  .margin-above-top-sm {
-    margin-top: 20px;
-  }
-
-  .margin-above-top-md {
-    margin-top: 50px;
-  }
-
-  .margin-above-top-lg {
-    margin-top: 150px;
-  }
-
-  .margin-below-bottom-xs {
-    margin-bottom: 10px;
-  }
-
-  .margin-below-bottom-sm {
-    margin-bottom: 20px;
-  }
-
-  .margin-below-bottom-md {
-    margin-bottom: 50px;
-  }
-
-  .margin-below-bottom-lg {
-    margin-bottom: 150px;
-  }
-
-  .margin-below-bottom-xl {
-    margin-bottom: 200px;
-  }
   </style>
 </head>
 
 
 <body>
-  <table>
-    <!--TOP LEVEL NAVIGATION- -->
+  <table class="main-content">
+    <!--1st ROW: TOP LEVEL NAVIGATION- -->
     <tr>
-      <td colspan="6">
+      <td colspan="6" >
         <a class="navbar-brand" href="https://www.google.com">
           <i class="fa fa-lg fa-fw fa-dropbox"></i>
           Filebox
         </a>
       </td>
 
-      <td colspan="2">
+      <td colspan="2" >
         <a href="https://www.google.com" class="btn btn-link">
           Download the app
         </a>
       </td>
 
-      <td colspan="2">
+      <td colspan="2" >
         <a href="https://www.google.com" class="btn btn-link">
           Sign in
         </a>
       </td>
 
-      <td colspan="2">
+      <td colspan="2" >
         <a href="https://www.google.com" class="btn btn-default">
           Try Filebox Business
         </a>
@@ -164,19 +54,19 @@
 
     <!-- 2nd ROW: HERO BANNER -->
     <tr>
-      <td colspan="12" class="bdr-color1">
+      <td colspan="12" >
         <img src="hero.png">
       </td>
     </tr>
 
-    <!-- 3rd ROW: LOGIN -->
+    <!-- 3rd ROW: how TO LOGIN -->
     <tr>
-      <td colspan="6" class="bdr-color1" >
+      <td colspan="6"  >
         <h1>File box works the way you do</h1>
         <p> Get to all your files from anywhere, on any device, and share them with anyone. </p>
       </td>
 
-      <td colspan="6" class="bdr-color1">
+      <td colspan="6" >
         <form class="margin-above-top-sm">
           <div>
             <label>
@@ -223,7 +113,7 @@
 
     <!-- 4th ROW: DOCS ANYWHERE -->
     <tr>
-      <td colspan="6" class="padding-inside-top-md bdr-color1">
+      <td colspan="6" class="padding-inside-top-md">
         <h2>
           Take your docs anywhere
         </h2>
@@ -232,18 +122,18 @@
         </p>
       </td>
 
-      <td colspan="6" class="padding-inside-top-md bdr-color1" >
+      <td colspan="6" class="padding-inside-top-md " >
         <img src="docs-anywhere.png">
       </td>
     </tr>
 
     <!-- 5th ROW: SEND VIDEOS -->
-    <tr class="row padding-inside-top-lg padding-inside-bottom-md">
-      <td class="col-sm-offset-1 col-sm-4 bdr-color1">
-        <img src="send-videos-quickly.png" class="img-responsive">
+    <tr>
+      <td colspan="6" class="padding-inside-top-md" >
+        <img src="send-videos-quickly.png">
       </td>
 
-      <td class="col-sm-offset-2 col-sm-4 bdr-color1">
+      <td colspan="6" >
         <h2>
           Send videos quickly
         </h2>
@@ -253,6 +143,135 @@
       </td>
     </tr>
 
+    <!-- 6th ROW: KEEP PHOTOS SAFE  -->
+    <tr>
+      <td colspan="6" >
+        <h2>Keep your photos safe</h2>
+        <p>
+          Back up vacation photos automatically from your phone or computer. That way, memories are safe as soon as you make them, and you can relive them from any device.
+        </p>
+      </td>
+
+      <td colspan="6">
+        <img src="keep-your-photos-safe.png">
+      </td>
+    </tr>
+
+    <!-- 7th ROW: SLIDES TOGETHER  -->
+    <tr>
+      <td colspan="6" >
+        <img src="work-on-slides-together.png">
+      </td>
+
+      <td colspan="6" >
+        <<h2>Work on slides together</h2>
+        <p>
+          Edit a presentation with teammates without emailing files back and forth. When you edit a file in a shared folder, everyone gets the update automatically.
+        </p>
+      </td>
+    </tr>
+
+    <!-- 8th ROW: NEVER LOSE -->
+    <tr>
+      <td colspan="6" >
+        <h2>Never lose a file again</h2>
+        <p>
+          Left your phone on the train? Your photos, docs, and videos are safe. Just sign in to Filebox from any device, and your files will be there waiting for you.
+        </p>
+      </td>
+
+      <td colspan="6" >
+        <img src="never-lose-a-file-again.png">
+      </td>
+    </tr>
+
+    <!-- 9th ROW:  GET STARTED -->
+    <tr>
+      <td colspan="4">      </td>
+      <td colspan="4" class="padding-inside-top-md padding-inside-bottom-lg">
+        <h2>
+          Get started now
+        </h2>
+        <form class="margin-above-top-sm">
+          <label>Full name</label>
+          <input type="text" name="name" value="Full name"><br>
+
+          <label>Email</label>
+          <input type="email" name="name" value="email">
+
+          <div>
+            <label>Password</label>
+            <input type="password" value="Password">
+          </div>
+
+          <input type="checkbox">
+          <label>I agree to <a href="google.com">Filebox terms</a></label><br>
+          <button type="submit" class="primary-button">Sign up for free</button><br>
+
+          <hr> <!--Instituies a line-->
+
+          <label>I agree to <a href="google.com">Filebox terms</a></label><br>
+          <button type="submit" class="primary-button">Sign up for free with Google</button>
+        </form>
+      </td>
+      <td colspan="4">      </td>
+    </tr>
+
+    <!-- 10th ROW: FOOTER -->
+    <tr class="panel-footer-HMALM">
+      <td colspan="2" >
+        <h4>Filebox</h4>
+        <ul>
+          <li>Desktop app</li>
+          <li>Mobile apps</li>
+          <li>Plans</li>
+          <li>Security</li>
+        </ul>
+      </td>
+      <td colspan="2" >
+        <h4>Company</h4>
+        <ul>
+          <li>About Us</li>
+          <li>Job</li>
+          <li>Press</li>
+          <li>Blogs</li>
+        </ul>
+      </td>
+      <td colspan="2" >
+        <h4>Support</h4>
+        <ul>
+          <li>Help Center</li>
+          <li>Get started</li>
+          <li>Contact</li>
+          <li>Privacy & Terms</li>
+        </ul>
+      </td>
+      <td colspan="2" >
+        <h4>Community</h4>
+        <ul>
+          <li>Developers</li>
+          <li>Referrals</li>
+          <li>Forum</li>
+        </ul>
+      </td>
+      <td colspan="2" >
+        <h4>Connect</h4>
+        <ul>
+          <li>Twitter</li>
+          <li>Facebook</li>
+          <li>Google+</li>
+          <li>YouTube</li>
+        </ul>
+      </td>
+      <td colspan="2" >
+        <h4>Products</h4>
+        <ul>
+          <li>Pro</li>
+          <li>Business</li>
+          <li>Enterprise</li>
+        </ul>
+      </td>
+    </tr>
 
   </table>
 </body>
